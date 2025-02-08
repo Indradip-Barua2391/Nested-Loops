@@ -10,5 +10,5 @@ for num in range(lower, upper+1):
             if num % i == 0:
                 print(f"The number {num} is not a prime number")
                 break
-            else:
-                print(f"The number {num} is not a prime number")
+        else:
+            print(f"The number {num} is not a prime number")
